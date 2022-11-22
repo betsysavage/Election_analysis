@@ -1,6 +1,7 @@
 # Election_analysis
 
-## Project Overview
+## Overview of Election Audit
+## Purpose
 A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
 
 1. Calculate the total number of votes cast.
@@ -13,7 +14,7 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 - Data Source: election_results.csv
 - Software: Python 3.9.13
 
-## Summary
+## Election Audit Results
 The analysis of the election show that:
 - There were 369,711 total votes cast in the local election.
 The total vote count was calculated by looping through the rows and continuing to add the number of votes in each row to the total value. First, I created a "total_votes" variable and initialized it to start at zero.
@@ -45,7 +46,7 @@ To produce the number of total votes in an output table, I included the "total_v
   - Candidate 3 received "x% of the vote and "y" number of votes
  -The winner of the election was:
   - Candidate (1, 2, or 3), who received "x%" of the vote and "y" number of votes
-  
-## Challenge Overview
 
-## Challenge Summary
+## Election Audit Summary
+
+There is a statement to the election commission that explores how this script can be used for any election, with two examples for modifying the script. (4 pt)
