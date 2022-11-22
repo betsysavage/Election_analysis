@@ -16,7 +16,7 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 
 ## Election Audit Results
 The analysis of the election show that:
-- There were 369,711 total votes cast in the local election.
+- **There were 369,711 total votes cast in the local election**.
 The total vote count was calculated by looping through the rows and continuing to add the number of votes in each row to the total value. First, I created a "total_votes" variable and initialized it to start at zero.
 
 <img width="317" alt="image" src="https://user-images.githubusercontent.com/114873837/203384879-453d64cb-c174-4826-a48b-cf076fc362be.png">
