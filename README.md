@@ -43,7 +43,7 @@ I then created a series of f strings to produce an output table. Because this co
 <img width="600" alt="image" src="https://user-images.githubusercontent.com/114873837/203388252-9b74af2e-f2d2-4de8-b310-09a76236bfb1.png">
 
 
-- From the above analysis, we can see that the county with the largest number of votes was Denver, with a total vote count of 306,055, which was 82.8% of the total ballots cast across the precinct. To confirm this result, I included a piece of code that would automatically produce the county with the largest county turnout.
+- From the above analysis, we can see that **the county with the largest number of votes was Denver**, with a total vote count of 306,055, which was 82.8% of the total ballots cast across the precinct. To confirm this result, I included a piece of code that would automatically produce the county with the largest county turnout.
 [CODE DESCRIPTION]
 
 - **The candidates included the following names**:
