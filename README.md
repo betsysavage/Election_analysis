@@ -11,11 +11,19 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 
 ## Resources
 - Data Source: election_results.csv
-- Software: Python
+- Software: Python 3.9.13
 
 ## Summary
 The analysis of the election show that:
-- There were "x" votes cast inthe election.
+- There were 369,711 total votes cast in the local election.
+[CODE DESCRIPTION]
+- The following table breaks down the total number of votes cast in each county, as well as their percentage of the total votes in the election.
+[CODE DESCRIPTION]
+<img width="215" alt="image" src="https://user-images.githubusercontent.com/114873837/203383342-1f0315cd-b369-48c6-83ad-e4ece43329ce.png">
+
+- From the above analysis, we can see that the county with the largest number of votes was Denver, with a total vote count of 306,055, which was 82.8% of the total ballots cast across the precinct. To confirm this result, I included a piece of code that would automatically produce the county with the largest county turnout.
+[CODE DESCRIPTION]
+
 - The candidates were:
   -Candidate 1
   -Candidate 2
