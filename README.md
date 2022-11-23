@@ -97,14 +97,21 @@ To place the candidate results in an output table that could be printed to the t
 
 <img width="541" alt="image" src="https://user-images.githubusercontent.com/114873837/203624106-8641764c-723e-4d6b-b8e0-620f6e1901e0.png">
 
+Next, I created a for loop "for candidate_name in candidate_votes" to loop through the candidate votes dictionary to retrieve the vote count for each candidate. Within the for loop, I wrote a conditional if statement - If the vote count for the candidate was greater than the current value of "winning_count" and the vote percentage for the candidate was greater than the current value of "winning_percentage", then the current candidate name becomes the winning candidate.
 
- - **From the above analysis, we can see that the candidate with the largest number of votes was Diana DeGette, who secured a sizeable 73.8% of the votes.**
+<img width="585" alt="image" src="https://user-images.githubusercontent.com/114873837/203631801-34030f10-661a-4464-a943-c0abba1fd4dd.png">
+
+ - **From the above analysis, we can see that the candidate with the largest number of votes was Diana DeGette, who secured a sizeable 73.8% of the votes with 272,892 votes.**
  
 To confirm this result, a piece of code is included in the analysis to produce a table that displays the winner's count and percentage of results. When run, the data in this table is indeed Diana's.
  
  <img width="227" alt="image" src="https://user-images.githubusercontent.com/114873837/203602880-bdbeb04b-cd46-4278-a150-11897bac8c93.png">
  
- To create this piece of code, 
+ To create this piece of code, we first initialized variables to represent the winning candidate, winning vote count, and the winning percentage.
+ 
+ <img width="465" alt="image" src="https://user-images.githubusercontent.com/114873837/203630319-ce6ad517-2325-44ba-b4bc-5e879001b02c.png">
+
+
 
 ## Election Audit Summary
 
