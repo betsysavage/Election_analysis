@@ -17,7 +17,7 @@ Tom, our client for this project, is an employee of the Colorado Board of Electi
 
 ## Resources
 - Data Source: election_results.csv
-- Software: Python 3.9.13
+- Software: Python 3.9.13, Visual Studio Code
 
 ## Election Audit Results
 The analysis of the election show that:
@@ -103,14 +103,7 @@ Next, I created a for loop "for candidate_name in candidate_votes" to loop throu
 
  - **From the above analysis, we can see that the candidate with the largest number of votes was Diana DeGette, who secured a sizeable 73.8% of the votes with 272,892 votes.**
  
-To confirm this result, a piece of code is included in the analysis to produce a table that displays the winner's count and percentage of results. When run, the data in this table is indeed Diana's.
- 
- <img width="227" alt="image" src="https://user-images.githubusercontent.com/114873837/203602880-bdbeb04b-cd46-4278-a150-11897bac8c93.png">
- 
- To create this piece of code, we first initialized variables to represent the winning candidate, winning vote count, and the winning percentage.
- 
  <img width="465" alt="image" src="https://user-images.githubusercontent.com/114873837/203630319-ce6ad517-2325-44ba-b4bc-5e879001b02c.png">
-
 
 
 ## Election Audit Summary
