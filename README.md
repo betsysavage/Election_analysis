@@ -115,5 +115,9 @@ To confirm this result, a piece of code is included in the analysis to produce a
 
 ## Election Audit Summary
 
-The python script as described above can be considered scalable for other elections. The text file that displays the results will automatically update to display the candidate names, county names, and votes, even if they are different values than the ones used in our sample csv. 
+The python script as described above can be considered scalable for other elections. The text file that displays the results will automatically update to display the candidate names, county names, and votes, even if they are different values or larger numbers of values than the ones used in our sample csv. 
+
+If the election isn't looking at specific candidates, but rather ballot initiatives or referendums (such as "vote yes/no on this measure"), the variables for "candidate names" can easily be updated to reflect the yes or no options. 
+
+Since many voting districts are drawn to cross county lines and cover geographic portions of multiple counties, the board of elections can also change references to the "county" variables to "voting district" or "precinct", or even "state" if the election is large enough. 
 
