@@ -103,7 +103,7 @@ Next, I created a for loop "for candidate_name in candidate_votes" to loop throu
 
  - **From the above analysis, we can see that the candidate with the largest number of votes was Diana DeGette, who secured a sizeable 73.8% of the votes with 272,892 votes.**
  
- <img width="465" alt="image" src="https://user-images.githubusercontent.com/114873837/203630319-ce6ad517-2325-44ba-b4bc-5e879001b02c.png">
+<img width="248" alt="image" src="https://user-images.githubusercontent.com/114873837/203639855-bb35d360-7b97-4c71-a625-901edd6a3bb9.png">
 
 
 ## Election Audit Summary
