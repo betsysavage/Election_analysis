@@ -2,7 +2,7 @@
 
 ## Overview of Election Audit
 ## Purpose
-Tom, our client for this project, is an employee of the Colorado Board of Elections. He has requested assistance to write an algorithm that will automatically analyze local election results. The goal of this project is to 1.) confirm the voting results of the election and 2.) create a script that can be scaled beyond this single election to other congressional and senate districts. In order to successfully certify the election results, the script was written to produce the following the following necessary information: 
+Tom, our client for this project, is an employee of the Colorado Board of Elections. He has requested assistance to write an algorithm that will automatically analyze local election results. The goal of this project is to 1.) confirm the voting results of the election and 2.) create a script that can be scaled beyond this single election to other congressional and senate district election results. In order to successfully certify the election results, the script was written to produce the following the following necessary information: 
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of candidates who received votes.
@@ -12,6 +12,7 @@ Tom, our client for this project, is an employee of the Colorado Board of Electi
 6. Calculate the voter turnout for each county
 7. Generate the percentage of votes each county contributes to the total number of votes in the precinct
 8. Determine the county with the highest voter turnout.
+
 ^ Goals generated using information provided from module activity 3.6.5
 
 ## Resources
