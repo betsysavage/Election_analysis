@@ -46,12 +46,14 @@ Then the following statement was added to the existing for loop reading all rows
 
 <img width="421" alt="image" src="https://user-images.githubusercontent.com/114873837/203615049-a2ef99bd-05e3-4c59-a0a4-4e4c83f172f7.png">
 
+Then I assigned a variable to tally the total vote count.
+
+<img width="443" alt="image" src="https://user-images.githubusercontent.com/114873837/203617445-15718458-34b6-42ce-b994-047b48be8bbd.png">
+
 After all of the counties are listed and the vote counts tabulated, the last piece of information for the output table is the percentage of the total votes represented by each county's turnout. I created a new variable to capture the calculation of county votes divided by total votes multiplied by 100, which generates the percentage of the total.
 
 <img width="464" alt="image" src="https://user-images.githubusercontent.com/114873837/203615840-75ed5015-4896-4354-b62e-0fab5da7bc06.png">
 
-
-<img width="514" alt="image" src="https://user-images.githubusercontent.com/114873837/203388738-981c896d-c184-416b-a145-8f583214a78f.png">
 
 To place the number of county results in an output table that could be printed to the terminal and written to the text file, I structured a series of f strings to fill in the values of the county name, county percentage, and county vote totals. Because this code is within the for loop, the output of results is repeated for each county, resulting in three lines for the output table. 
 
@@ -60,7 +62,17 @@ To place the number of county results in an output table that could be printed t
 
 - **From the above output, we can see that the county with the largest number of votes was Denver**, with a total vote count of 306,055, which was 82.8% of the total ballots cast across the precinct.
 
-To confirm this result, I included a piece of code that would automatically produce the county with the largest county turnout.
+To confirm this result, I included a piece of code that would automatically produce the county with the largest county turnout. First, prior to the for loop, I initialized variables to represent the largest county (largest_county), a string, and the largest number of votes (most_county_votes), an integer set to zero. 
+
+<img width="513" alt="image" src="https://user-images.githubusercontent.com/114873837/203618417-a6929b88-882c-4ec8-8906-b0a413ea0b0f.png">
+
+Next, I created a for loop "for county_name in county_votes" to loop through the county votes dictionary to retrieve the vote count for each county. Within the for loop, I wrote a conditional if statement - If the vote count for the county was greater than the current value of "most_county_votes", then the current county becomes the largest county with the most county votes.
+
+<img width="642" alt="image" src="https://user-images.githubusercontent.com/114873837/203618861-48819ca8-25ad-4e21-91dc-64cb06e7594b.png">
+
+To place the largest county results in an output table that could be printed to the terminal and written to the text file, I structured a series of f strings to fill in the values of the largest county name.
+
+<img width="561" alt="image" src="https://user-images.githubusercontent.com/114873837/203620871-ed73352c-94c6-49ed-885d-08fdcbedf07a.png">
 
 - **The candidates included the following names**:
 
