@@ -98,7 +98,9 @@ To place the candidate results in an output table that could be printed to the t
 <img width="541" alt="image" src="https://user-images.githubusercontent.com/114873837/203624106-8641764c-723e-4d6b-b8e0-620f6e1901e0.png">
 
 
- - **From the above analysis, we can see that **the candidate with the largest number of votes was Diana DeGette**, who secured a sizeable 73.8% of the votes. To confirm this result, a piece of code is included in the analysis to produce a table that displays the winner's count and percentage of results. When run, the data in this table is indeed Diana's.
+ - **From the above analysis, we can see that the candidate with the largest number of votes was Diana DeGette, who secured a sizeable 73.8% of the votes.
+ 
+To confirm this result, a piece of code is included in the analysis to produce a table that displays the winner's count and percentage of results. When run, the data in this table is indeed Diana's.
  
  <img width="227" alt="image" src="https://user-images.githubusercontent.com/114873837/203602880-bdbeb04b-cd46-4278-a150-11897bac8c93.png">
  
